@@ -1,0 +1,96 @@
+img {
+  position: relative;
+  top: 0px;
+  left: 400px;
+  z-index: 10000;
+}
+
+#coursebox {
+  width: 1200px;
+  height: 220px;
+  position: relative;
+  top: 0;
+}
+
+#hbox {
+  width: 800px;
+  height: 100px;
+  text-align: center;
+  position: relative;
+  top: -30px;
+  left: 200px;
+}
+
+#bar {
+  background-color: rgb(79, 79, 79);
+  width: 1200px;
+  height: 25px;
+  position: relative;
+  top: 125px;
+}
+
+/*요소 포지셔닝*/
+
+#hbox h2 {
+  font: normal 50px/50px 'Stylish', sans-serif;
+  color: white;
+  z-index: 0;
+}
+
+/*제목*/
+
+.course {
+  width: 180px;
+  height: 180px;
+  border: 10px solid grey;
+  border-radius: 30px;
+  text-align: center;
+  color: grey;
+  margin: 20px 60px;
+  float: left;
+  box-sizing: border-box;
+}
+
+#course1 {
+  font: 45px/80px 'Do Hyeon', sans-serif;
+  background-color: white;
+}
+
+#course1:hover {
+  border: 10px solid rgb(255, 191, 0);
+  color: rgb(255, 219, 112);
+  background-color: rgb(32, 35, 68);
+}
+
+#course2 {
+  font: normal 45px/80px 'Gugi', cursive;
+  background-color: white;
+}
+
+#course2:hover {
+  border: 10px solid rgb(0, 110, 255);
+  color: white;
+  background-color: rgb(134, 210, 238);
+}
+
+#course3 {
+  font: normal 45px/80px 'Black And White Picture', sans-serif;
+  background-color: white;
+}
+
+#course3:hover {
+  border: 10px solid rgb(101, 78, 54);
+  color: rgb(172, 172, 172);
+  background-color: rgb(12, 12, 17);
+}
+
+#course4 {
+  font: normal 45px/80px 'Hi Melody', cursive;
+  background-color: white;
+}
+
+#course4:hover {
+  border: 10px solid rgb(0, 182, 13);
+  color: rgb(0, 182, 13);
+  background-color: rgb(254, 135, 38);
+}

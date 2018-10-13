@@ -1,0 +1,27 @@
+body{
+  margin:0;
+  padding:0;
+}
+img{
+  border:0;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+ul,ol,li{
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
+h1,h2,h3,h4,h5,h6{
+  margin:0;
+  padding:0;
+}
+/*default ends*/
+#con {
+  width:1200px;
+  height:750px;
+  position:relative;
+  margin:0 auto;
+}

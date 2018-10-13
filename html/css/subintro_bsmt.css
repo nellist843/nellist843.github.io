@@ -1,0 +1,27 @@
+#con {
+  background-repeat: round;
+}
+
+#con h1 {
+  font: normal 100px/200px 'Black And White Picture', sans-serif;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 120px;
+}
+
+#con a {
+  display: block;
+  font: normal 70px 'Black And White Picture', sans-serif;
+  text-align: right;
+  color: white;
+  position: relative;
+  top: 230px;
+  right: 120px;
+  opacity: 0.0;
+  transition: opacity 1s ease-out;
+}
+
+#con:hover a {
+  opacity: 1.0;
+}

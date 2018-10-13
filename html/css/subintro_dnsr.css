@@ -1,0 +1,29 @@
+#con {
+  background-repeat: round;
+}
+
+#con h1 {
+  font: normal 100px/200px 'Hi Melody', cursive;
+  text-align: center;
+  color: rgb(0,182,13);
+  position: relative;
+  top: 120px;
+  text-shadow:2px 2px 5px rgb(50, 62, 113);
+}
+
+#con a {
+  display: block;
+  font: normal 70px 'Hi Melody', cursive;
+  text-align: right;
+  color: rgb(0,182,13);
+  position: relative;
+  top: 230px;
+  right: 120px;
+  opacity: 0.0;
+  transition: opacity 1s ease-out;
+  text-shadow:2px 2px 5px rgb(50, 62, 113);
+}
+
+#con:hover a {
+  opacity: 1.0;
+}
