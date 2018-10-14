@@ -30,19 +30,20 @@
   display: block;
   width: 400px;
   height: 200px;
-  border: 10px solid rgb(255, 191, 0);
+  border: 10px solid rgb(101, 78, 54);
   position: relative;
   top: 200px;
   font: normal 50px/100px 'Sunflower', sans-serif;
   text-align: center;
   border-radius: 20px;
   box-sizing: border-box;
-  color: rgb(255, 219, 112);
-  background-color: rgb(32, 35, 68);
-  transition: background-color 1s, color 1s;
+  color: rgb(172, 172, 172);
+  background-color: rgb(12, 12, 17);
+  transition: border 1s, background-color 1s, color 1s;
 }
 
 #texts a:hover {
-  background-color: rgb(255, 191, 0);
-  color: rgb(32, 35, 68);
+  border: 10px solid rgb(172, 172, 172);
+  background-color: rgb(172, 172, 172);
+  color: white;
 }
