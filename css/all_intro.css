@@ -1,0 +1,89 @@
+#con {
+  background-color: white;
+}
+
+#con img {
+  border-radius: 50%;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.links {
+  display: block;
+  width: 300px;
+  height: 100px;
+  position: relative;
+  margin: 40px 0;
+  left: 800px;
+  top: -575px;
+  font: normal 50px/100px 'Sunflower', sans-serif;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 7px;
+  box-shadow: 0 10px rgb(186, 186, 186);
+}
+
+#con #link1 {
+  background-color: rgb(255, 191, 0);
+}
+
+#con #link2 {
+  background-color: rgb(0, 110, 255);
+}
+
+#con #link3 {
+  background-color: rgb(235, 72, 0);
+}
+
+#con #link4 {
+  background-color: rgb(0, 182, 13);
+}
+
+#con #link1:hover {
+  background-color: rgb(198, 150, 9);
+  color:white;
+}
+
+#con #link2:hover {
+  background-color: rgb(4, 80, 180);
+  color:white;
+}
+
+#con #link3:hover {
+  background-color: rgb(184, 61, 7);
+  color:white;
+}
+
+#con #link4:hover {
+  background-color: rgb(2, 125, 11);
+  color:white;
+}
+
+#con #link1:active {
+  background-color: rgb(198, 150, 9);
+  box-shadow: 0 5px rgb(87, 87, 87);
+  transform: translateY(3px);
+  color:white;
+}
+
+#con #link2:active {
+  background-color: rgb(4, 80, 180);
+  box-shadow: 0 5px rgb(87, 87, 87);
+  transform: translateY(3px);
+  color:white;
+}
+
+#con #link3:active {
+  background-color: rgb(184, 61, 7);
+  box-shadow: 0 5px rgb(87, 87, 87);
+  transform: translateY(3px);
+  color:white;
+}
+
+#con #link4:active {
+  background-color: rgb(2, 125, 11);
+  box-shadow: 0 5px rgb(87, 87, 87);
+  transform: translateY(3px);
+  color:white;
+}
