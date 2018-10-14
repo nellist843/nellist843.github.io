@@ -1,0 +1,82 @@
+#con {
+  background-color: white;
+}
+
+#con img {
+  width: 200px;
+  height: 178px;
+  position: relative;
+  top: 10px;
+  left: 500px;
+}
+
+#con h2 {
+  text-align: center;
+  font: normal 40px/80px "Sunflower", sans-serif;
+}
+
+#words {
+  width: 1100px;
+  height: 300px;
+  position: relative;
+  padding: 50px;
+}
+
+.ccon {
+  display: block;
+  position: relative;
+  width: 250px;
+  height: 100px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  float: left;
+  font: normal 60px/100px 'Sunflower', sans-serif;
+}
+
+/*박스 크기 설정*/
+
+.ccon .cbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.ccon .cmark {
+  position: absolute;
+  border: 5px dashed rgb(42, 193, 0);
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100px;
+  background-color: rgba(255, 208, 0, 0.3);
+}
+
+.ccon:hover .cbox~.cmark {
+  background-color: rgb(42, 193, 0, 0.3)
+}
+
+.ccon .cbox:checked~.cmark {
+  background-color: rgb(42, 193, 0, 0.7);
+  border: 5px solid red;
+}
+
+#con button {
+  width: 100px;
+  height: 100px;
+  border: none;
+  position: relative;
+  left: 450px;
+  top: 50px;
+  font: bold 80px/100px "Sunflower", sans-serif;
+  border-radius: 50%;
+  background-color: rgb(42, 193, 0, 0.6);
+  color: white;
+  transition: background-color 1s;
+}
+
+#con button:hover {
+  background-color: rgb(42, 193, 0);
+}

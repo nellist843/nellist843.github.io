@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>두리와 노니의 우주 모험</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Black+And+White+Picture|Do+Hyeon|Gugi|Hi+Melody&amp;subset=korean" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:500&amp;subset=korean" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/default.css">
+    <link rel="stylesheet" type="text/css" href="css/all_story_word.css">
+  </head>
+  <body>
+    <div id="con">
+      <img src="img/knowword2.png" alt="">
+      <h2>알고 있는 단어를 눌러봐!</h2>
+      <div id="words">
+        <form action="">
+          <label class="ccon">게시하다
+            <input type="checkbox" class="cbox" name="space_word" value="게시하다">
+            <span class="cmark"></span>
+          </label>
+          <label class="ccon">결정하다
+            <input type="checkbox" class="cbox" name="space_word" value="결정하다">
+            <span class="cmark"></span>
+          </label>
+          <label class="ccon">관찰하다
+            <input type="checkbox" class="cbox" name="space_word" value="관찰하다">
+            <span class="cmark"></span>
+          </label>
+          <label class="ccon">전달하다
+            <input type="checkbox" class="cbox" name="space_word" value="전달하다">
+            <span class="cmark"></span>
+          </label>
+          <br>
+          <label class="ccon">반복하다
+            <input type="checkbox" class="cbox" name="space_word" value="반복하다">
+            <span class="cmark"></span>
+          </label>
+          <label class="ccon">살펴보다
+            <input type="checkbox" class="cbox" name="space_word" value="살펴보다">
+            <span class="cmark"></span>
+          </label>
+          <label class="ccon">설명하다
+            <input type="checkbox" class="cbox" name="space_word" value="설명하다">
+            <span class="cmark"></span>
+          </label>
+          <label class="ccon">적다
+            <input type="checkbox" class="cbox" name="space_word" value="적다">
+            <span class="cmark"></span>
+          </label>
+          <br>
+          <label class="ccon">상상하다
+            <input type="checkbox" class="cbox" name="space_word" value="상상하다">
+            <span class="cmark"></span>
+          </label>
+          <label class="ccon">표시하다
+            <input type="checkbox" class="cbox" name="space_word" value="표시하다">
+            <span class="cmark"></span>
+          </label>
+        </form>
+        <a href="#"><button>&gt;</button></a>
+      </div>
+    </div>
+    <script>
+      function printOut(){
+          var x = document.querySelectorAll(".cbox:checked");
+          var i;
+          var x2 = "";
+          for(i=0; i<x.length; i++){
+            x2 += x[i].value + ", "
+          };
+        //document.getElementById("printed").innerHTML = x2.slice(0,-2);
+      }
+    </script>
+  </body>
+</html>
