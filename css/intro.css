@@ -35,6 +35,7 @@ img {
   font: normal 50px/50px 'Stylish', sans-serif;
   color: white;
   z-index: 0;
+  text-shadow: 2px 2px 5px rgb(186, 185, 186);
 }
 
 /*제목*/

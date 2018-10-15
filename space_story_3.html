@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>두리와 노나의 우주모험</title>
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:500&amp;subset=korean" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/all_space_story.css">
+    <script src="js/story.js"></script>
+    <style>
+    /*style 태그로 설정*/
+    /*p태그 설정*/
+    #left p{width:550px;margin-top: 50px; font:normal 30px/50px 'Sunflower',sans-serif; position:relative; top:50px;}
+    #right p{width:550px;font:normal 30px/50px 'Sunflower',sans-serif;position:relative; top:50px; margin-left:30px;}
+    #wtip1{position:relative; top:-280px; left:250px;}
+    #wtip1 p{position:relative; left:-170px; top:-30px; }
+    </style>
+  </head>
+  <body>
+    <div id="con">
+      <audio id="aud">
+        <source src="audio/sp3.mp3" type="audio/mpeg">
+      </audio>
+
+      <div id="main">
+
+        <div id="left">
+          <p>두리와 노나는 <br>의뢰인이 말한 날짜를 달력에 <span class="word" id="word1">표시</span>했다.<br>그리고 모험에 필요한 준비물을 생각했다.<br>"우주식량, 우주복, 물, 지도, 또 뭐가 필요할까?"<br>"어떤 것도 무서워하지 않는 용기!"<br>두 친구는 차근차근 <br>우주 모험을 떠날 준비를 했다.</p>
+          <div class="wtip" id="wtip1">
+            <h3>표시하다</h3>
+            <img src="img/word/표시하다.png" alt="">
+            <p>문자나 그림으로<br>나타내다</p>
+          </div><!--툴-->
+        </div><!--#left-->
+        <div id="bdr"></div>
+        <div id="right">
+          <img src="img/icon.png" alt="" id="replay">
+          <ul>
+            <li class="current">동화</li>
+            <li>단어</li>
+            <li>문제</li>
+            <li>오답</li>
+          </ul><!--ul-->
+          <p>드디어 모험을 떠나는 날, 두 사람은 나로 우주비행장에서  X를 만났다.<br>"좋은 결정을 했군요.<br>즐거운 모험이 될 거예요."<br>그런데, 한 가지 조심할 것이 있습니다.<br>타토박사를 만나려면 그가 내는 문제를 풀고 맞춰야 합니다.<br>"행운을 빌게요."</p>
+        </div><!--#right-->
+      </div><!--#main-->
+      <div id="nav">
+        <a href="space_story_2.html" class="button" id="prev"><div>이전</div></a>
+        <a href="space_intro.html" class="button" id="intr"><div>목록</div></a>
+        <a href="space_story_4.html" class="button" id="next"><div>다음</div></a>
+      </div><!--#nav-->
+    </div><!--#con-->
+    <script src="js/story.js"></script>
+  </body>
+</html>

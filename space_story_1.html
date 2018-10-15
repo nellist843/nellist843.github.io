@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>두리와 노나의 우주모험</title>
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:500&amp;subset=korean" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/all_space_story.css">
+    <style>
+    /*style 태그로 설정*/
+    /*p태그 설정*/
+    p{font:normal 30px/50px 'Sunflower',sans-serif; margin-left:30px}
+    #right p{width:550px; position:relative; top:200px}
+    #wtip1{position:absolute; top:170px; left:150px;}
+    </style>
+  </head>
+  <body>
+    <div id="con">
+      <audio id="aud">
+        <source src="audio/sp1.mp3" type="audio/mpeg">
+      </audio>
+
+      <div id="main">
+
+        <div id="left">
+          <p>'똑똑'<br>모험안내문을 <span class="word" id="word1">게시</span>하던 두리는<br>문을 두드리는 소리를 들었다.<br>"누구세요?"<br>문을 열었지만, 아무것도 보이지 않았다.<br>"뭐지?"<br>두리는 고개를 갸웃거리며 문을 닫았다.<br></p>
+
+          <div class="wtip" id="wtip1">
+            <h3>게시하다</h3>
+            <img src="img/word/게시하다.jpg" alt="">
+            <p>여러사람들에게<br>보여주기 위해<br>종이를 벽에 붙이다</p>
+          </div><!--툴-->
+        </div><!--#left-->
+        <div id="bdr"></div>
+        <div id="right">
+          <img src="img/icon.png" alt="" id="replay">
+          <ul>
+            <li class="current">동화</li>
+            <li>단어</li>
+            <li>문제</li>
+            <li>오답</li>
+          </ul><!--ul-->
+          <p>잠시 후 노나가 두리의 집으로 찾아왔다.<br>"두리야! 이게 문 앞에 떨어져 있었어."<br>노나는 두리에게 편지를 보여주었다.<br>"이게 뭐지?"<br>두리는 편지를 읽기 시작했다.</p>
+        </div><!--#right-->
+      </div><!--#main-->
+      <div id="nav">
+        <a href="space_story_word.html" class="button" id="prev"><div>이전</div></a>
+        <a href="space_story_intro.html" class="button" id="intr"><div>목록</div></a>
+        <a href="space_story_2.html" class="button" id="next"><div>다음</div></a>
+      </div><!--#nav-->
+    </div><!--#con-->
+    <script src="js/story.js"></script>
+  </body>
+</html>

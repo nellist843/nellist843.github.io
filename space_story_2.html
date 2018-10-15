@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>두리와 노나의 우주모험</title>
+    <link href="https://fonts.googleapis.com/css?family=Sunflower:500&amp;subset=korean" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/all_space_story.css">
+    <style>
+    /*style 태그로 설정*/
+    /*p태그 설정*/
+    #left p{width:550px;margin-top: 50px; font:normal 22px/40px 'Sunflower',sans-serif;text-align:center; position:relative; top:30px;}
+    #right p{width:550px;font:normal 30px/50px 'Sunflower',sans-serif;text-align:left; position:relative; top:200px; margin-left:30px;}
+    #wtip1{position:relative; top:-260px; left:130px;}
+    #wtip1 p{position:relative; left:-170px; top:-30px; }
+    #wtip2{position:relative; top:-150px;}
+    #wtip2 p{position:relative; top:-10px; left:-180px;font:normal 22px/30px 'Sunflower',sans-serif;text-align:center;}\
+    </style>
+  </head>
+  <body>
+    <div id="con">
+      <audio id="aud">
+        <source src="audio/sp2.mp3" type="audio/mpeg">
+      </audio>
+
+      <div id="main">
+
+        <div id="left">
+          <p>모험가 두리에게<br>당신에게 멋진 모험을 할 수 있는 기회를 알려주려 합니다.<br>지구에서 멀리 떨어진 우주 별 '센타우루스'에 가서<br>토타박사에게 중요한 물건을 받아오세요.<br>무사히 돌아온다면 <br>당신에게 더 재미있는 모험을 할 수 있는 기회를 주겠습니다.<br>우주로 모험을 갈 수 있는지 잘 생각하고 <span class="word" id="word1">결정</span>하세요.<br>모험을 떠나고 싶다면 <br>일주일 후, 9시에 나로 우주비행장에서 봅시다.<br>- 의뢰인 X -</p>
+
+          <div class="wtip" id="wtip1">
+            <h3>결정하다</h3>
+            <img src="img/word/결정하다.png" alt="">
+            <p>어떻게 할 지<br>분명하게 정하다</p>
+          </div><!--툴-->
+        </div><!--#left-->
+        <div id="bdr"></div>
+        <div id="right">
+          <img src="img/icon.png" alt="" id="replay">
+          <ul>
+            <li class="current">동화</li>
+            <li>단어</li>
+            <li>문제</li>
+            <li>오답</li>
+          </ul><!--ul-->
+          <p>두리는 갑작스러운 모험의뢰에 깜짝 놀랐다.<br>그러나 곧바로 우주를 모험하는 <br>두리와 노나의 모습을 <span class="word" id="word2">상상</span>해봤다.<br>"노나야 나랑 같이 우주로 모험을 떠나볼래?"<br>"당연하지!"</p>
+          <div class="wtip" id="wtip2">
+            <h3>상상하다</h3>
+            <img src="img/word/상상하다.jpg" alt="">
+            <p>진짜로 있지 않은 일이나<br>세상에 없는 것을<br>머릿속으로 그리다.</p>
+          </div><!--툴-->
+        </div><!--#right-->
+      </div><!--#main-->
+      <div id="nav">
+        <a href="space_story_1.html" class="button" id="prev"><div>이전</div></a>
+        <a href="space_intro.html" class="button" id="intr"><div>목록</div></a>
+        <a href="space_story_3.html" class="button" id="next"><div>다음</div></a>
+      </div><!--#nav-->
+    </div><!--#con-->
+    <script src="js/story.js"></script>
+  </body>
+</html>
